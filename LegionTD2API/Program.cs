@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddHttpClient<ILTDService, LTDService>(c =>
 {
     c.BaseAddress = new Uri("https://apiv2.legiontd2.com/");
-    c.DefaultRequestHeaders.Add("x-api-key", "FLBw3UYm0B3JeaJsgMEjO4hocSanyof91k16PT6v");
+    c.DefaultRequestHeaders.Add("x-api-key", builder.Configuration["ApiKey"]);
     c.DefaultRequestHeaders.Add("accept", "application/json");
 });
 
