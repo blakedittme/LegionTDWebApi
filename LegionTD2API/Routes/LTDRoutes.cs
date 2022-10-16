@@ -13,7 +13,7 @@
 
         #region Units
         public const string UNITS_BY_ID = "/units/byId/{id}";
-        public const string UNITS_BY_NAME = "/units/byId/{id}";
+        public const string UNITS_BY_NAME = "/units/byName/{id}";
         public const string UNITS_BY_VERSION = "/units/byVersion/{version}";
         #endregion
 
@@ -30,7 +30,7 @@
         public const string INFO_SPELLS_BY_ID = "/info/spells/byId/{id}";
         public const string INFO_SPELLS_OFFSET_LIMIT = "/info/spells/{offset}/{limit}";
         public const string INFO_ABILITIES_BY_ID = "/info/abilities/byId/{id}";
-        public const string INFO_ABILITIE_OFFSET_LIMIT = "/info/abilities/{offset}/{limit}";
+        public const string INFO_ABILITIES_OFFSET_LIMIT = "/info/abilities/{offset}/{limit}";
         public const string INFO_RESEARCH_BY_ID = "/info/research/byId/{id}";
         public const string INFO_RESEARCH_OFFSET_LIMIT = "/info/research/{offset}/{limit}";
         public const string INFO_DESCRIPTIONS_BY_ID = "/info/descriptions/{id}";
